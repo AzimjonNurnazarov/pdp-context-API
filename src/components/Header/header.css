@@ -1,0 +1,88 @@
+header {
+  border: 10px solid;
+  border-radius: 50px 50px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 8vh;
+  border-bottom: 0;
+}
+header .left {
+  width: 42.3%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  border-radius: 40px 0px 0px 0px;
+}
+header .left h4 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 20px */
+  letter-spacing: -0.4px;
+}
+header .left ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0;
+  gap: 15px;
+}
+header .left ul li {
+  list-style-type: none;
+}
+header .left ul li a {
+  text-decoration: none;
+  font-size: 14px;
+}
+header .right {
+  border-radius: 0 36px 0px 0px;
+  padding: 0 40px;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  gap: 30px;
+  background-color: #3c3b3a;
+}
+header .right .icons {
+  display: flex;
+  gap: 30px;
+}
+header .right .icons a {
+  text-decoration: none;
+  color: white;
+}
+header .right .btn {
+  color: white;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+header .right .btn button {
+  padding: 8px 10px;
+  background-color: white;
+}
+
+.dark .left {
+  background-color: #3c3b3a;
+  color: white;
+}
+.dark .right {
+  background-color: white;
+}
+.dark .right .icons a {
+  color: #3c3b3a;
+}
+.dark .right .btn {
+  color: #3c3b3a;
+}
+.dark .right .btn button {
+  background-color: #3c3b3a;
+}/*# sourceMappingURL=header.css.map */
